@@ -1,6 +1,5 @@
 # core/document_manager.py - Document Management Core Logic
 import pandas as pd
-import sqlalchemy as sa
 from datetime import datetime
 from typing import Optional, List, Dict, Any
 
