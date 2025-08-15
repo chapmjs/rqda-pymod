@@ -146,4 +146,3 @@ class DocumentManager:
             i += 1
             
         return f"{size_bytes:.1f}{size_names[i]}"
-
