@@ -1,5 +1,6 @@
 # core/document_manager.py - Document Management Core Logic
 import pandas as pd
+import sqlalchemy as sa
 from datetime import datetime
 from typing import Optional, List, Dict, Any
 
@@ -145,3 +146,4 @@ class DocumentManager:
             i += 1
             
         return f"{size_bytes:.1f}{size_names[i]}"
+
