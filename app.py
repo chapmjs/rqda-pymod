@@ -88,7 +88,7 @@ def server(input, output, session):
         # Make it interactive for selection
         return render.DataGrid(
             files_df[['id', 'name', 'date_created', 'size']],
-            selection_mode="single"
+            selection_mode="row"
         )
     
     @reactive.Effect
